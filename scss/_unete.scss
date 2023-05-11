@@ -1,0 +1,14 @@
+.main_unete{
+  @include displayFlex(center, center);
+  height: 78vh;
+  flex-direction: column;
+}
+
+.form{
+    margin: 30px;
+    width: 30vw;
+
+    button{
+      height: 35px;
+    }
+}

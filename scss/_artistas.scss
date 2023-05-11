@@ -1,0 +1,65 @@
+.artistas1{
+    width: 100vw;
+    @include displayFlex(center,center);
+    margin-top: 80px;
+    height: 93vh;
+    
+    figure{
+        width: 25vw;
+        align-self: flex-start;
+        img {
+             align-self: flex-start;
+             width: 25vw;
+        }
+        p{
+            text-align: center;
+            margin: 20px;
+            font-size: 1em;
+        }
+    }
+    h2{
+        font-weight:$fotTitulosAnchos;
+        font-size: 4em;
+        margin-left: 50vw;
+        position: absolute;
+        align-self: center;
+    }
+}
+
+.img{
+    height: 93vh;
+}
+
+.discos{
+    align-self: flex-end;
+    div div a img{
+        width: 20vw;
+    }
+}
+
+.artistas2 {
+    @extend .artistas1;
+    article {
+        width: 25vw;
+        align-self: flex-start;
+        margin-top: 200px;
+
+        h2 {
+            position: static;
+            margin: 0px;
+            font-size: 4em;
+            text-align: center;
+        }
+        p {
+            text-align: center;
+            margin: 20px;
+        }
+    }
+}
+
+#rauw{
+    width: 100px;
+    margin-left: 0vw;
+    margin-right: 55vw;
+    margin-bottom: 150px;
+}

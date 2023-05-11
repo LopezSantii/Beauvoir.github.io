@@ -1,0 +1,349 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+/* headerIndex */
+header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: white;
+  width: 100%;
+  background-image: url(../img/banner_balenciaga.jpg);
+  flex-direction: row;
+  height: 90vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+header section {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+  width: 25vw;
+  margin-left: 25px;
+}
+header section h1 {
+  font-weight: 100;
+  text-align: center;
+  margin: 15px;
+}
+header section p {
+  text-align: center;
+  margin: 15px;
+}
+
+.artistas_index {
+  width: 100%;
+  border-radius: 100%;
+}
+
+.link_artistas {
+  width: 210px;
+}
+.link_artistas:hover {
+  transition: 0.5s;
+  transform: scale(1.07);
+}
+
+.button_carousel {
+  color: rgb(180, 177, 177);
+}
+.button_carousel:hover {
+  color: rgb(180, 177, 177);
+}
+
+.button_snk {
+  border-radius: 0px;
+  width: 100%;
+  padding: 2px;
+}
+
+.check {
+  display: flex;
+}
+.check p {
+  margin-left: 30px;
+}
+.check svg {
+  margin: 2px 0px;
+}
+
+.banner {
+  width: 100%;
+}
+
+.unete_index {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #eeecec;
+  width: 100%;
+  height: 40vh;
+}
+
+* {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+}
+
+a {
+  text-decoration: none;
+}
+
+.margin_sections {
+  margin-top: 100px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh;
+}
+footer p {
+  margin: 25px;
+  color: black;
+}
+footer section {
+  margin: 0px 25px;
+}
+footer section a {
+  text-decoration: none;
+  margin: 10px;
+}
+footer section a svg {
+  color: black;
+}
+
+#nav li {
+  margin: 0px 10px;
+}
+#nav li a {
+  color: grey;
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  transition: background-size 0.3s;
+}
+#nav li a:hover {
+  color: grey;
+  background-size: 100% 2px;
+}
+
+nav section a img {
+  width: 80px;
+}
+
+.bg_button {
+  background-color: black;
+  color: white;
+  border-style: none;
+}
+.bg_button:hover {
+  color: white;
+  background-color: grey;
+}
+
+.bg_snk {
+  background-color: #f4f4f4;
+}
+
+.main_unete {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 78vh;
+  flex-direction: column;
+}
+
+.form {
+  margin: 30px;
+  width: 30vw;
+}
+.form button {
+  height: 35px;
+}
+
+.tendencias {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 35px;
+}
+.tendencias img {
+  width: 46vw;
+}
+.tendencias div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 35px;
+  flex-direction: column;
+}
+
+.artistas1, .artistas2 {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+  height: 93vh;
+}
+.artistas1 figure, .artistas2 figure {
+  width: 25vw;
+  align-self: flex-start;
+}
+.artistas1 figure img, .artistas2 figure img {
+  align-self: flex-start;
+  width: 25vw;
+}
+.artistas1 figure p, .artistas2 figure p {
+  text-align: center;
+  margin: 20px;
+  font-size: 1em;
+}
+.artistas1 h2, .artistas2 h2 {
+  font-weight: 400;
+  font-size: 4em;
+  margin-left: 50vw;
+  position: absolute;
+  align-self: center;
+}
+
+.img {
+  height: 93vh;
+}
+
+.discos {
+  align-self: flex-end;
+}
+.discos div div a img {
+  width: 20vw;
+}
+
+.artistas2 article {
+  width: 25vw;
+  align-self: flex-start;
+  margin-top: 200px;
+}
+.artistas2 article h2 {
+  position: static;
+  margin: 0px;
+  font-size: 4em;
+  text-align: center;
+}
+.artistas2 article p {
+  text-align: center;
+  margin: 20px;
+}
+
+#rauw {
+  width: 100px;
+  margin-left: 0vw;
+  margin-right: 55vw;
+  margin-bottom: 150px;
+}
+
+@media (width <= 990px) {
+  header {
+    background-image: url(../img/banner_mobile.jpg);
+    width: 100%;
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    width: 100%;
+  }
+  header section h1 {
+    font-size: 1.5em;
+  }
+  header section div a {
+    margin: 10px;
+  }
+  .unete_index {
+    height: 30vh;
+  }
+  .unete_index h2 {
+    margin-top: 20px;
+  }
+  .p_mobile {
+    font-size: 0.8em;
+  }
+  .form {
+    width: 75vw;
+  }
+  .titulo {
+    margin: 25px;
+  }
+  .tendencias {
+    flex-direction: column;
+  }
+  .tendencias img {
+    width: 80vw;
+    order: 1;
+  }
+  .tendencias div {
+    margin: 15px;
+    width: 80vw;
+    order: 2;
+  }
+  .artistas1, .artistas2 {
+    height: auto;
+    flex-direction: column;
+    margin-top: 50px;
+  }
+  .artistas1 .img, .artistas2 .img {
+    width: 80%;
+    height: auto;
+    order: 1;
+  }
+  .artistas1 h2, .artistas2 h2 {
+    margin-top: 20px;
+    font-size: 1.6em;
+    position: relative;
+    order: 2;
+    width: 80%;
+  }
+  .artistas1 figure, .artistas2 figure {
+    width: 80%;
+    align-self: center;
+    order: 3;
+  }
+  .artistas1 figure img, .artistas2 figure img {
+    display: none;
+  }
+  .artistas1 div, .artistas2 div {
+    display: none;
+  }
+  .artistas2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .artistas2 .img {
+    order: 1;
+  }
+  .artistas2 article {
+    order: 2;
+    margin: 20px 0px 0px 0px;
+    width: 80%;
+    align-self: center;
+  }
+  .artistas2 article h2 {
+    font-size: 1.6em;
+    width: 100%;
+    margin: 0px;
+    text-align: center;
+  }
+  #rauw {
+    text-align: center;
+    width: 100%;
+    margin: 20px 0px 0px 0px;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */

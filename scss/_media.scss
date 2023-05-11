@@ -1,0 +1,114 @@
+// medias 
+@media (width<=990px) {
+
+  // page index
+  header {
+      background-image: url(../img/banner_mobile.jpg);
+      width: 100%;
+      background-attachment: scroll;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      justify-content: center;
+      width: 100%;
+      section {
+
+        h1{
+          font-size: 1.5em;
+        }
+        div{
+          a{
+            margin: 10px;
+           }
+        }
+      }
+  }
+    .unete_index {
+      height: 30vh;
+      h2{
+        margin-top: 20px;
+      }
+  }
+  .p_mobile {
+      font-size: 0.8em;
+  }
+  // page unete
+  .form{
+    width: 75vw;
+   }
+
+  // page tendencias
+  .titulo{
+    margin: 25px;
+  }
+
+  .tendencias{
+    flex-direction: column;
+
+    img{
+      width: 80vw;
+      order: 1;
+    }
+    div{
+      margin: 15px;
+      width: 80vw;
+      order: 2;
+    }
+  }
+
+  // page artistas
+  .artistas1{
+    height: auto;
+    flex-direction:column;
+    margin-top: 50px;
+    .img{
+      width: 80%;
+      height: auto;
+      order: 1;
+    }
+    h2{
+      margin-top: 20px;
+      font-size: 1.6em;
+      position:relative;
+      order: 2;
+      width: 80%;
+    }
+    figure{
+      width: 80%;
+      align-self: center;
+      order: 3;
+      img{
+        display: none;
+      }
+    }
+    div{
+      display: none;
+    }
+  }
+
+  .artistas2{
+    @include displayFlex(center,center);
+    flex-direction: column;
+    .img{
+      order: 1;
+    }
+    article{
+      order: 2;
+      margin: 20px 0px 0px 0px;
+      width: 80%;
+      align-self: center;
+      h2{
+        font-size: 1.6em;
+        width: 100%;
+        margin: 0px;
+        text-align: center;
+      }
+    }
+  }
+
+  #rauw{
+    text-align: center;
+    width: 100%;
+    margin: 20px 0px 0px 0px;
+  }
+}

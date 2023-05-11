@@ -1,0 +1,77 @@
+* {
+  font-family: $fontMain;
+  font-weight: 100;
+}
+
+a {
+  text-decoration: none;
+}
+
+.margin_sections {
+  margin-top: 100px;
+}
+
+//  footer 
+footer {
+  @include displayFlex(space-between, center);
+  height: 10vh;
+
+    p{
+      margin: 25px;
+      color: $colorMain;
+    }
+    
+    section {
+      margin: 0px 25px;
+
+      a{
+        text-decoration: none;
+        margin: 10px;
+
+        svg{
+          color: $colorMain;
+        }
+      }
+    }
+}
+
+// nav bar
+#nav li {
+  margin: 0px 10px;
+
+  a{
+    color: $colorSecondary;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+    
+    &:hover {
+      color: $colorSecondary;
+      background-size: 100% 2px;
+    }
+  }
+    
+}
+
+nav section a img {
+  width: 80px;
+}
+
+// buttons
+.bg_button {
+  background-color: $colorMain;
+  color: white;
+  border-style: none;
+  
+  &:hover {
+    color: white;
+    background-color: $colorSecondary;
+  }
+}
+
+// Backgraund page Sneakers
+.bg_snk {
+  background-color: $bgSneakers;
+}

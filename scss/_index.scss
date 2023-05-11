@@ -1,0 +1,86 @@
+/* headerIndex */
+header {
+    @include displayFlex(flex-start, center);
+    color: white;
+    width: 100%;
+    background-image: url(../img/banner_balenciaga.jpg);
+    flex-direction: row;
+    height: 90vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    section{
+        @include displayFlex(start, center);
+        flex-direction: column;
+        width: 25vw;
+        margin-left: 25px;
+
+        h1{
+            font-weight: 100;
+            text-align: center;
+            margin: 15px;
+        }
+        p{
+            text-align: center;
+            margin: 15px;
+        }
+    }
+}
+
+// sección de artistas
+.artistas_index {
+    width: 100%;
+    border-radius: 100%;
+}
+
+.link_artistas {
+    width: 210px;
+
+    &:hover{
+        transition: 0.5s;
+        transform: scale(1.07);
+    }
+}
+
+// carousel de artistas mobile
+.button_carousel {
+    color: rgb(180, 177, 177);
+
+    &:hover{
+        color: rgb(180, 177, 177);
+    }
+}
+
+// sección de sneakers
+.button_snk {
+    border-radius: 0px;
+    width: 100%;
+    padding: 2px
+}
+
+// sección de checks
+.check {
+    display: flex;
+
+    p{
+        margin-left: 30px;
+    }
+    svg{
+        margin: 2px 0px;
+    }
+}  
+
+// banner de chica
+.banner {
+    width: 100%;
+}
+
+// sección de registro
+.unete_index {
+    @include displayFlex(center, center);
+    background-color: #eeecec;
+    width: 100%;
+    height: 40vh;
+}

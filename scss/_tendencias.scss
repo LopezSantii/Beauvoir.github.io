@@ -1,0 +1,14 @@
+.tendencias{
+    @include displayFlex(space-between, center);
+    margin: 35px;
+    
+    img{
+        width: 46vw;
+    }
+
+    div{
+        @include displayFlex(center, center);
+        margin: 35px;
+        flex-direction: column;
+    }
+}
