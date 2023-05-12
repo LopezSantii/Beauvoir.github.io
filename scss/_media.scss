@@ -1,6 +1,15 @@
 // medias 
 @media (width<=990px) {
 
+  //nav
+  #nav li {
+    a{
+      &:hover{
+        background-size: 15% 2px;
+      }
+    }
+  } 
+
   // page index
   header {
       background-image: url(../img/banner_mobile.jpg);
@@ -58,6 +67,7 @@
 
   // page artistas
   .artistas1{
+    width: 100%;
     height: auto;
     flex-direction:column;
     margin-top: 50px;
@@ -67,11 +77,12 @@
       order: 1;
     }
     h2{
-      margin-top: 20px;
-      font-size: 1.6em;
-      position:relative;
-      order: 2;
+      text-align: center;
+      position: static;
       width: 80%;
+      margin: 20px 0px 0px 0px;
+      font-size: 1.6em;
+      order: 2;
     }
     figure{
       width: 80%;
@@ -81,9 +92,11 @@
         display: none;
       }
     }
-    div{
-      display: none;
-    }
+    
+  }
+
+  .discos{
+    display: none;
   }
 
   .artistas2{

@@ -184,7 +184,7 @@ nav section a img {
 }
 
 .artistas1, .artistas2 {
-  width: 100vw;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -247,6 +247,9 @@ nav section a img {
 }
 
 @media (width <= 990px) {
+  #nav li a:hover {
+    background-size: 15% 2px;
+  }
   header {
     background-image: url(../img/banner_mobile.jpg);
     width: 100%;
@@ -291,6 +294,7 @@ nav section a img {
     order: 2;
   }
   .artistas1, .artistas2 {
+    width: 100%;
     height: auto;
     flex-direction: column;
     margin-top: 50px;
@@ -301,11 +305,12 @@ nav section a img {
     order: 1;
   }
   .artistas1 h2, .artistas2 h2 {
-    margin-top: 20px;
-    font-size: 1.6em;
-    position: relative;
-    order: 2;
+    text-align: center;
+    position: static;
     width: 80%;
+    margin: 20px 0px 0px 0px;
+    font-size: 1.6em;
+    order: 2;
   }
   .artistas1 figure, .artistas2 figure {
     width: 80%;
@@ -315,7 +320,7 @@ nav section a img {
   .artistas1 figure img, .artistas2 figure img {
     display: none;
   }
-  .artistas1 div, .artistas2 div {
+  .discos {
     display: none;
   }
   .artistas2 {
