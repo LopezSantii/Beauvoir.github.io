@@ -58,3 +58,4 @@ para las redes sociales y los links de descarga para la app.
 - Versel: https://baeouvoir-github-io.vercel.app/
 
 ### Gracias por llegar hasta aqui espero que les haya gustado ❤
+Les dejo mi LinkedIn: https://www.linkedin.com/in/santiago-lopez-3962a4234/
