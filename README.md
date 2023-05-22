@@ -28,7 +28,7 @@ y eso no me gustaba ya que no queria hacer copy and paste ademas creo que cambia
 ![image](https://github.com/S4NTURRON/Baeouvoir.github.io/assets/105465529/6736ddd3-22ef-4022-a243-025b7ea7d0e2)
 
 ### Banner index
-Lo que si tenia en claro era que le banner que te recibe al sitio iba a ser asi,
+Lo que si tenia en claro era que el banner principal el cual te recibe al sitio iba a ser asi,
 queria que destaque con algo pero no tenia idea de como hacerlo hasta que descubri el efecto parallax y fue amor a primera vista.
 
 #### Wiframe
