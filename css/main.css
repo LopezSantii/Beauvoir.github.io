@@ -266,6 +266,9 @@ nav section a img {
   header section div a {
     margin: 10px;
   }
+  .card_ropa {
+    width: 85vw;
+  }
   .unete_index {
     height: 30vh;
   }
