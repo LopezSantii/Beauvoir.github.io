@@ -54,7 +54,7 @@ para las redes sociales y los links de descarga para la app.
 - GitHub
 
 ## Links
-- Github Pages: https://s4nturron.github.io/Baeouvoir.github.io/
+- Github Pages: https://s4nturron.github.io/Baeouvoir.github.io/](https://s4nturron.github.io/Beauvoir.github.io/
 - Versel: https://baeouvoir-github-io.vercel.app/
 
 ### Gracias por llegar hasta aqui espero que les haya gustado ❤
